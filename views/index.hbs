@@ -2,6 +2,9 @@
 <p>Welcome to {{title}}</p>
 {{#if user}}
 <h2>Hello {{user.username}}</h2>
+<a href="/private">
+    Secret Page
+  </a>
 <form action="/logout" method='POST'>
   <button type='submit'>Logout</button>
 </form>
